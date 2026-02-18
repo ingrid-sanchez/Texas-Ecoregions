@@ -14,7 +14,9 @@ html, body {
   overflow-x: hidden;
 }
 
+
 /* Page Management */
+
 .page {
   display: none;
   height: 100vh;
@@ -25,7 +27,9 @@ html, body {
   display: block;
 }
 
+
 /* Landing Page Container */
+
 .landing-container {
   display: flex;
   height: 100vh;
@@ -104,7 +108,9 @@ html, body {
   width: 100vw;
 }
 
+
 /* Sidebar Styles */
+
 .sidebar {
   background-color: #60721D;
   width: 443px;
@@ -151,7 +157,9 @@ html, body {
   display: none;
 }
 
+
 /* Main Content Area */
+
 .main-content {
   flex: 1;
   position: relative;
@@ -179,7 +187,9 @@ html, body {
   object-fit: contain;
 }
 
+
 /* Ecoregion Buttons */
+
 .ecoregion-btn {
   position: absolute;
   border: none;
@@ -309,7 +319,9 @@ html, body {
   top: 180px;
 }
 
+
 /* Language Selector */
+
 .language-selector {
   position: absolute;
   bottom: 45px;
@@ -337,7 +349,9 @@ html, body {
   color: black;
 }
 
+
 /* Detail Page Styles */
+
 .detail-page {
   background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
   padding-left: 30px;
@@ -401,7 +415,9 @@ html, body {
   line-height: 1.6;
 }
 
+
 /* Video container and overlay */
+
 .video-container {
   position: relative;
   left: 50%;
@@ -439,7 +455,9 @@ html, body {
   font-family: 'Noto Sans Hebrew', 'Noto Sans', sans-serif;
 }
 
+
 /* Responsive adjustments for the negative margin so mobile layout doesn't overlap header */
+
 @media (max-width: 1200px) {
   .video-container { height: 70vh; }
   .video-title { font-size: 36px; }
@@ -449,6 +467,93 @@ html, body {
   .video-container { height: 56vh; }
   .video-title { font-size: 26px; }
 }
+
+
+/* Horizontal Scrolling Banner */
+
+.plantlist{
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.scrollmenu{
+  width: 100vw;
+  height: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: #60721D;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+@keyframes loop {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}
+
+.native-card{
+  display:inline-block;
+  width: auto;
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.native-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.native-card img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.native-card .plant-name {
+  padding: 15px 15px 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: #666; 
+}
+
+.native-card .plant-common {
+  padding: 0 15px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.4;
+  text-wrap: wrap;
+  min-height: 50px;
+  max-height: 50px;
+  max-width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.learn-more-btn a{
+  display: inline-block;
+  padding: 12px 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Noto Sans Hebrew', 'Noto Sans', sans-serif;
+}
+
+
+/* Invasive Species + Search Bar */
 
 .search-section {
   margin-bottom: 50px;

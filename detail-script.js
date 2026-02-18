@@ -26,3 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
 function goBack() {
   window.location.href = 'english-landing.html';
 }
+
+// Plant list auto scroll (Need to copy into spanish version)
+const plantlist = document.getElementById('plantlist');
+const plantlistScrollWidth = plantlist.scrollWidth;
+
+window.addEventListener('load', () => {
+  self.setInterval(() => {
+    if (plantlist.scrollLeft !== plantlistScrollWidth) {
+      plantlist.scrollTo(plantlist.scrollLeft + 1, 0);
+    }
+  }, 15);
+});
