@@ -173,13 +173,6 @@ html, body {
   overflow: hidden;
 }
 
-.ecoregions{
-  position: absolute;
-  left: 15px;
-  top: -58px;
-  scale: 0.88;
-}
-
 .ecoregions-map {
   width: 100%;
   height: 100%;
@@ -347,7 +340,10 @@ html, body {
 /* Detail Page Styles */
 .detail-page {
   background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
-  padding: 60px 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  /*padding: 60px 80px; CAUSES BLANK SPACE ON TOP OF VIDEO*/
   overflow-y: auto;
 }
 
@@ -403,6 +399,55 @@ html, body {
   max-width: 600px;
   margin: 0 auto 40px;
   line-height: 1.6;
+}
+
+/* Video container and overlay */
+.video-container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  margin: 0 0 0 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ecoregion-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  pointer-events: none;
+  text-align: center;
+}
+
+.video-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 900;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.7);
+  font-family: 'Noto Sans Hebrew', 'Noto Sans', sans-serif;
+}
+
+/* Responsive adjustments for the negative margin so mobile layout doesn't overlap header */
+@media (max-width: 1200px) {
+  .video-container { height: 70vh; }
+  .video-title { font-size: 36px; }
+}
+
+@media (max-width: 768px) {
+  .video-container { height: 56vh; }
+  .video-title { font-size: 26px; }
 }
 
 .search-section {
@@ -575,10 +620,6 @@ html, body {
 
   .detail-page {
     padding: 40px 20px;
-  }
-
-  .ecoregion-title {
-    font-size: 42px;
   }
 
   .plant-grid {
