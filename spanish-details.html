@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <!-- Chihuahuan Deserts - Spanish -->
+    <!---------------------------------------- Chihuahuan Deserts - Spanish -------------------------------------------------->
     <div id="chihuahuanDeserts" class="page detail-page active">
       <div class="detail-background"></div>
 
@@ -25,42 +25,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">El Desierto de Chihuahua es un desierto cálido ubicado en el norte de América del Sur. Es el desierto cálido más grande de América del Norte, con un paisaje que presenta montañas áridas, cuencas desérticas y vegetación dispersa adaptada a condiciones extremas de calor y sequía.</p>
       
+      <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/American Century Plant.jpg" alt="Planta del Siglo">
+          <p class="plant-name">Agave americana</p>
+          <p class="plant-common">Planta del Siglo, Planta del Siglo Americano, Agave Americano, Maguey Americano</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGAM">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Drummond's Onion.jpg" alt="Cebolla de Drummond">
+          <p class="plant-name">Allium drummondii</p>
+          <p class="plant-common">Cebolla de Drummond, Ajo Silvestre, Drummond Cebolla Silvestre</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALDR">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Mountain Giant Hyssop.jpg" alt="Hisopo Gigante de Nuevo Mexico">
+          <p class="plant-name">Agastache pallidiflora</p>
+          <p class="plant-common">Hisopo Gigante de Nuevo Mexico</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGPA">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Nodding Onion.jpg" alt="Ajo Cabezón">
+          <p class="plant-name">Allium cernuum</p>
+          <p class="plant-common">Ajo Cabezón</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALCE2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Parry's Agave.jpg" alt="Agave de Parry">
+          <p class="plant-name">Agave parryi</p>
+          <p class="plant-common">Agave de Parry, Planta del Siglo, Agave Parry</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGPA4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Round Copperleaf.jpg" alt="Hierba del Cáncer">
+          <p class="plant-name">Acalypha monostachya</p>
+          <p class="plant-common">Hierba del Cáncer</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACMO">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Shrubby Boneset.jpg" alt="Serpiente de la Habana">
+          <p class="plant-name">Ageratina havanensis</p>
+          <p class="plant-common">Eupatorio Arbustivo, Flor de Niebla Arbustiva Blanca, Serpiente de la Habana</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGHA4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/White Mistflower.jpg" alt="Flor de Niebla Blanca">
+          <p class="plant-name">Ageratina wrightii</p>
+          <p class="plant-common">Flor de Niebla Blanca, Raiz de Serpiente de Wright, Eucalipto Blanco, Ageratum Blanco</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGWR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
       <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
       </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/c05d0383-03bf-4e21-9be1-002dd4a43ef0" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Malva India de Texas, Malva India</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-      </div>
+      <div class="plant-grid" data-ecoregion="chihuahuanDeserts"></div>
     </div>
 
-    <!-- Southwestern Tablelands - Spanish -->
+    <!--------------------------------------------- Southwestern Tablelands - Spanish --------------------------------------------------->
     <div id="southwesternTablelands" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -78,42 +150,115 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Mesetas del Suroeste se caracterizan por llanuras y mesetas elevadas con un clima semiárido. Esta región presenta pastizales dispersos, matorrales y bosques ocasionales, con vegetación adaptada a la precipitación moderada y las fluctuaciones de temperatura típicas de los márgenes del desierto de altura.</p>
       
+      <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Indian Mallow.jpg" alt="Malva India Enana">
+          <p class="plant-name">Abutilon parvulum</p>
+          <p class="plant-common">Malva India Enana</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABPA3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Desertpeony.jpg" alt="Peonía del Desierto Enana">
+          <p class="plant-name">Acourtia nana</p>
+          <p class="plant-common">Peonía del Desierto Enana</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACNA2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Slenderleaf False Foxglove.jpg" alt="Dedalera Falsa de Hojas Delgadas">
+          <p class="plant-name">Agalinis tenuifolia</p>
+          <p class="plant-common">Dedalera Falsa de Hojas Delgadas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGTE3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Fraser Meadow Garlic.jpg" alt="Ajo de Pradera de Fraser">
+          <p class="plant-name">Allium canadense var. fraseri</p>
+          <p class="plant-common">Ajo de Pradera de Fraser, Cebolla Silvestre</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALCAF">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+<!-- some plants found in multiple ecoregions-->
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Drummond's Onion.jpg" alt="Cebolla de Drummond">
+          <p class="plant-name">Allium drummondii</p>
+          <p class="plant-common">Cebolla de Drummond, Ajo Silvestre, Drummond Cebolla Silvestre</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALDR">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Whitebrush.jpg" alt="Pincel Blanco">
+          <p class="plant-name">Aloysia gratissima</p>
+          <p class="plant-common">Pincel Blanco, Pincel de Abeja, Pincel blanco, Pincel de Abeja Común, Lippia de Ligustro</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALGR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
       <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
       </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/f2f4d3e5-5550-40e5-9dda-af56de0784e2" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/b95c5df3-643d-4756-9760-bcfc11aea80c" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/761f3af6-da56-4e92-836b-74078240e3f8" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Malva India de Texas, Malva India</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/b95c5df3-643d-4756-9760-bcfc11aea80c" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-      </div>
+      <div class="plant-grid" data-ecoregion="southwesternTablelands"></div>
     </div>
 
-    <!-- High Plains - Spanish -->
+    <!--------------------------------------- High Plains - Spanish --------------------------------------------------->
     <div id="highPlains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -131,42 +276,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Grandes Llanuras son una vasta extensión de pastizales planos a suavemente ondulados a gran altitud, caracterizados por vegetación de pradera de pasto corto. Esta región experimenta un clima continental con inviernos fríos y veranos cálidos, que soportan pastos nativos y plantas resistentes a la sequía adaptadas a las condiciones semiáridas.</p>
       
+      <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/High Plains/Fragrant Sand-verbena.jpg" alt="Verbena de Arena Fragrante">
+          <p class="plant-name">Abronia fragrans</p>
+          <p class="plant-common">Verbena de Arena Fragrante, Verbena de Arena Bola de Nieve, Verbena de Arena, Delicia del Corazón</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABFR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Indian Mallow.jpg" alt="Malva India Enana">
+          <p class="plant-name">Abutilon parvulum</p>
+          <p class="plant-common">Malva India Enana</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABPA3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Slenderleaf False Foxglove.jpg" alt="Dedalera Falsa de Hojas Delgadas">
+          <p class="plant-name">Agalinis tenuifolia</p>
+          <p class="plant-common">Dedalera Falsa de Hojas Delgadas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGTE3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/High Plains/Fringed Bluestar.jpg" alt="Estrella Azul">
+          <p class="plant-name">Amsonia ciliata</p>
+          <p class="plant-common">Estrella Azul con Flecos, Estrella Azul</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMCI">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/High Plains/Valley Redstem.jpg" alt="Tallo Rojo del Valle">
+          <p class="plant-name">Ammannia coccinea</p>
+          <p class="plant-common">Tallo Rojo del Valle, Copa Dentada Escarlata</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMCO">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
       <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
       </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/bb84a801-11a6-4613-b5ca-2fc700cf336d" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/cc60c761-187c-4f40-b197-299ff4d35d63" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/514390cc-7405-4e6b-b617-22998a7ddb69" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Malva India de Texas, Malva India</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-        
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/cc60c761-187c-4f40-b197-299ff4d35d63" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
-        </div>
-      </div>
+      <div class="plant-grid" data-ecoregion="highPlains"></div>
     </div>
 
-    <!-- Central Great Plains - Spanish -->
+    <!----------------------------------------- Central Great Plains - Spanish --------------------------------------------->
     <div id="centralGreatPlains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -184,28 +401,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Grandes Llanuras Centrales presentan pastizales ondulantes con un clima de transición entre las Grandes Llanuras y las praderas orientales. Esta región soporta vegetación de pradera de pastos mixtos y experimenta precipitación moderada, creando condiciones para comunidades de plantas diversas incluyendo pastos nativos, flores silvestres y arbustos dispersos.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+      <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/High Plains/Fragrant Sand-verbena.jpg" alt="Verbena de Arena Fragrante">
+          <p class="plant-name">Abronia fragrans</p>
+          <p class="plant-common">Verbena de Arena Fragrante, Verbena de Arena Bola de Nieve, Verbena de Arena, Delicia del Corazón</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABFR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Whitebrush.jpg" alt="Pincel Blanco">
+          <p class="plant-name">Aloysia gratissima</p>
+          <p class="plant-common">Pincel Blanco, Pincel de Abeja, Pincel blanco, Pincel de Abeja Común, Lippia de Ligustro</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALGR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/High Plains/Fringed Bluestar.jpg" alt="Estrella Azul">
+          <p class="plant-name">Amsonia ciliata</p>
+          <p class="plant-common">Estrella Azul con Flecos, Estrella Azul</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMCI">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Central Great Plains/Heartleaf Peppervine.jpg" alt="Vid de Pimienta">
+          <p class="plant-name">Ampelopsis cordata</p>
+          <p class="plant-common">Vid de Pimienta de Hoja de Corazón, Vid de Pimienta</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMCO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Central Great Plains/Indigo Bush.jpg" alt="Arbusto Índigo">
+          <p class="plant-name">Amorpha fruticosa</p>
+          <p class="plant-common">Arbusto Índigo, Arbusto Índigo Falso, Índigo Falso, Índigo Falso del Desierto</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMFR">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Central Great Plains/Carelessweed.jpg" alt="Bledo">
+          <p class="plant-name">Amaranthus palmeri</p>
+          <p class="plant-common">Bledo</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMPA">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="centralGreatPlains"></div>
     </div>
 
-    <!-- Cross Timbers - Spanish -->
+    <!---------------------------------------------- Cross Timbers - Spanish ------------------------------------------------------>
     <div id="crossTimbers" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -223,28 +526,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Los Bosques Cruzados se caracterizan por bosques de robles y sabanas de pradera en el centro de Texas. Esta región representa una transición entre los bosques orientales y las praderas occidentales, con bosques de roble blanco y roble negro intercalados con pastizales y vegetación de sotobosque diversa adaptada a la precipitación moderada y suelos bien drenados.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Ohio Buckeye.jpg" alt="Castaño de Indias de Ohio">
+          <p class="plant-name">Aesculus glabra</p>
+          <p class="plant-common">Castaño de Indias de Ohio, Castaño de Indias de Texas, Castaño de Indias Fétido</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AEGL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/American Century Plant.jpg" alt="Planta del Siglo">
+          <p class="plant-name">Agave americana</p>
+          <p class="plant-common">Planta del Siglo Americano, Agave Americano, Maguey Americano</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGAM">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Shrubby Boneset.jpg" alt="Serpiente de la Habana">
+          <p class="plant-name">Ageratina havanensis</p>
+          <p class="plant-common">Eupatorio Arbustivo, Flor de Niebla Arbustiva Blanca, Serpiente de la Habana</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGHA4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Beach False Foxglove.jpg" alt="Dedalera de Playa">
+          <p class="plant-name">Agalinis fasciculata</p>
+          <p class="plant-common">Dedalera de Playa</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGFA2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Prairie Agalinis.jpg" alt="Agalinis de Pradera">
+          <p class="plant-name">Agalinis heterophylla</p>
+          <p class="plant-common">Agalinis de Pradera, Dedalera de Pradera</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGHE4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="crossTimbers"></div>
     </div>
 
-    <!-- Edwards Plateau - Spanish -->
+    <!---------------------------------------------- Edwards Plateau - Spanish ------------------------------------------------------>
     <div id="edwardsPlateau" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -262,28 +651,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">La Meseta de Edwards es una meseta de piedra caliza caracterizada por vegetación de cedro y roble, particularmente bosques de enebro de Ashe y roble vivo. Esta región presenta topografía cárstica, manantiales y cuevas, con comunidades de plantas únicas adaptadas a suelos calcáreos y un clima semiárido con patrones de lluvia estacional.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/High Plains/Fragrant Sand-verbena.jpg" alt="Verbena de Arena Fragrante">
+          <p class="plant-name">Abronia fragrans</p>
+          <p class="plant-common">Verbena de Arena Fragrante, Verbena de Arena Bola de Nieve, Verbena de Arena, Delicia del Corazón</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABFR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Indian Mallow.jpg" alt="Malva India Enana">
+          <p class="plant-name">Abutilon parvulum</p>
+          <p class="plant-common">Malva India Enana</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABPA3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Round Copperleaf.jpg" alt="Hierba del Cáncer">
+          <p class="plant-name">Acalypha monostachya</p>
+          <p class="plant-common">Hierba del Cáncer</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACMO">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Ohio Buckeye.jpg" alt="Castaño de Indias de Ohio">
+          <p class="plant-name">Aesculus glabra</p>
+          <p class="plant-common">Castaño de Indias de Ohio, Castaño de Indias de Texas, Castaño de Indias Fétido</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AEGL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Edwards Plateau/Kunth's Onion.jpg" alt="Cebolla de Kunth">
+          <p class="plant-name">Allium kunthii</p>
+          <p class="plant-common">Cebolla de Kunth</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALKU">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Edwards Plateau/Velvet-leaf Mallow.jpg" alt="Malva de Hoja Suave">
+          <p class="plant-name">Allowissadula holosericea</p>
+          <p class="plant-common">Malva de Hoja Suave, Malva Falsa de Montaña Chisos</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALHO4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Edwards Plateau/Menzies' Fiddleneck.jpg" alt="Fiddleneck de Menzie">
+          <p class="plant-name">Amsinckia menziesii var. menziesii</p>
+          <p class="plant-common">Fiddleneck de Menzie</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMMEM2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="edwardsPlateau"></div>
     </div>
 
-    <!-- Southern Texas Plains - Spanish -->
+    <!---------------------------------------------- Southern Texas Plains - Spanish ------------------------------------------------------>
     <div id="southernTexasPlains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -301,28 +776,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Llanuras del Sur de Texas son una región de llanura costera con vegetación subtropical y comunidades de plantas diversas adaptadas a inviernos cálidos y veranos calurosos. Esta área presenta bosques espinosos, pastizales y matorrales, con vegetación incluyendo mezquite, acacia y especies resistentes a la sequía adaptadas al clima subtropical semiárido.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Shrubby Indian Mallow.jpg" alt="Malva India Arbustiva">
+          <p class="plant-name">Abutilon abutiloides</p>
+          <p class="plant-common">Malva India Arbustiva</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABAB">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Indian Mallow.jpg" alt="Malva India Enana">
+          <p class="plant-name">Abutilon parvulum</p>
+          <p class="plant-common">Malva India Enana</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABPA3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Bigtooth Maple.jpg" alt="Arce de Dientes Grandes">
+          <p class="plant-name">Acer grandidentatum</p>
+          <p class="plant-common">Arce de Dientes Grandes, Arce de Dientes Grandes del Suroeste, Arce del Cañón, Arce Sabinal</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACGR3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Triangle Cactus.jpg" alt="Cactus Triangular">
+          <p class="plant-name">Acanthocereus tetragonus</p>
+          <p class="plant-common">Cactus Triangular, Cactus de Alambre de Púas, Chaco</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACTE4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Ohio Buckeye.jpg" alt="Castaño de Indias de Ohio">
+          <p class="plant-name">Aesculus glabra</p>
+          <p class="plant-common">Castaño de Indias de Ohio, Castaño de Indias de Texas, Castaño de Indias Fétido</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AEGL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Beach False Foxglove.jpg" alt="Dedalera de Playa">
+          <p class="plant-name">Agalinis fasciculata</p>
+          <p class="plant-common">Dedalera de Playa</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGFA2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="southernTexasPlains"></div>
     </div>
 
-    <!-- Texas Blackland Prairies - Spanish -->
+    <!---------------------------------------------- Texas Blackland Prairies - Spanish ------------------------------------------------------>
     <div id="texasBlacklandPrairies" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -340,28 +901,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Praderas de Tierra Negra de Texas son una región de pradera fértil caracterizada por suelos arcillosos oscuros y ricos en nutrientes formados a partir de material parental de piedra caliza. Históricamente esta región soportaba vegetación de pradera de pasto alto y es muy productiva para la agricultura. Hoy en día presenta praderas remanentes con diversas especies de flores silvestres y pastos nativos.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/High Plains/Fragrant Sand-verbena.jpg" alt="Verbena de Arena Fragrante">
+          <p class="plant-name">Abronia fragrans</p>
+          <p class="plant-common">Verbena de Arena Fragrante, Verbena de Arena Bola de Nieve, Verbena de Arena, Delicia del Corazón</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABFR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Indian Mallow.jpg" alt="Malva India Enana">
+          <p class="plant-name">Abutilon parvulum</p>
+          <p class="plant-common">Malva India Enana</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABPA3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Texas Blackland Prairies/Texas Bluebonnet.jpg" alt="Texas Bluebonnet">
+          <p class="plant-name">Lupinus texensis</p>
+          <p class="plant-common">Texas Bluebonnet, Bluebonnet, Texas Lupine, Buffalo Clover, Wolf Flower</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=LUTE">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Bigtooth Maple.jpg" alt="Arce de Dientes Grandes">
+          <p class="plant-name">Acer grandidentatum</p>
+          <p class="plant-common">Arce de Dientes Grandes, Arce de Dientes Grandes del Suroeste, Arce del Cañón, Arce Sabinal</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACGR3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Round Copperleaf.jpg" alt="Hierba del Cáncer">
+          <p class="plant-name">Acalypha monostachya</p>
+          <p class="plant-common">Hierba del Cáncer</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACMO">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Texas Blackland Prairies/Grand Redstem.jpg" alt="Grand Redstem">
+          <p class="plant-name">Ammannia robusta</p>
+          <p class="plant-common">Grand Redstem</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMRO3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Texas Blackland Prairies/Huisache Daisy.jpg" alt="Huisache Daisy">
+          <p class="plant-name">Amblyolepis setigera</p>
+          <p class="plant-common">Huisache Daisy, Butterfly Daisy, Honey Daisy</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMSE">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="texasBlacklandPrairies"></div>
     </div>
 
-    <!-- East Central Texas Plains - Spanish -->
+    <!---------------------------------------------- East Central Texas Plains - Spanish ------------------------------------------------------>
     <div id="eastCentralTexasPlains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -379,28 +1026,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Llanuras del Centro Este de Texas son una región de transición entre bosque y pradera con vegetación mixta. Esta área presenta una mezcla de bosques de pino y bosques de madera dura intercalados con pastizales y áreas de humedales, creando hábitats diversos para plantas adaptadas a la precipitación moderada y condiciones húmedas subtropicales de esta ecotonía.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/Slender Threeseed Mercury.jpg" alt="Slender Threeseed Mercury">
+          <p class="plant-name">Acalypha gracilens</p>
+          <p class="plant-common">Slender Threeseed Mercury</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACGR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/High Plains/Prairie Acacia.jpg" alt="Acacia de la Pradera">
+          <p class="plant-name">Acaciella angustissima</p>
+          <p class="plant-common">Acacia Bola Blanca, Acacia Helecho, Acacia Bola Blanca, Acacia de Pradera, Acacia Bola Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACAN11">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Pineland Threeseed Mercury.jpg" alt="Carpe de Hoja de Cobre">
+          <p class="plant-name">Acalypha ostryifolia</p>
+          <p class="plant-common">Carpe de Hoja de Cobre, Mercurio de Tres Semillas</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACOS">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/Cardinal's Feather.jpg" alt="Pluma de Cardenal">
+          <p class="plant-name">Acalypha radians</p>
+          <p class="plant-common">Pluma de Cardenal</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACRA">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/Junco.jpg" alt="Junco">
+          <p class="plant-name">Adolphia infesta</p>
+          <p class="plant-common">Junco</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ADIN">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Ohio Buckeye.jpg" alt="Castaño de Indias de Ohio">
+          <p class="plant-name">Aesculus glabra</p>
+          <p class="plant-common">Castaño de Indias de Ohio, Castaño de Indias de Texas, Castaño de Indias Fétido</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AEGL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/White Snakeroot.jpg" alt="Serpentaria Blanca">
+          <p class="plant-name">Ageratina altissima</p>
+          <p class="plant-common">Serpentaria Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGAL5">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">INVASIVE SPECIES</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="eastCentralTexasPlains"></div>
     </div>
 
-    <!-- Western Gulf Coastal Plain - Spanish -->
+    <!---------------------------------------------- Western Gulf Coastal Plain - Spanish ------------------------------------------------------>
     <div id="westernGulfCoastalPlain" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -418,28 +1151,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">La Llanura Costera del Golfo Occidental es una región costera baja con bosques de pinos, pastizales y humedales. Esta área experimenta humedad alta y precipitación típica de zonas costeras, soportando bosques de pino de hoja larga, ciénagas de madera dura y vegetación de pradera costera adaptada a suelos arenosos e inundaciones periódicas.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Shrubby Indian Mallow.jpg" alt="Malva India Arbustiva">
+          <p class="plant-name">Abutilon abutiloides</p>
+          <p class="plant-common">Malva India Arbustiva</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ABAB">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/Cardinal's Feather.jpg" alt="Pluma de Cardenal">
+          <p class="plant-name">Acalypha radians</p>
+          <p class="plant-common">Pluma de Cardenal</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACRA">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Triangle Cactus.jpg" alt="Cactus Triangular">
+          <p class="plant-name">Acanthocereus tetragonus</p>
+          <p class="plant-common">Cactus Triangular, Cactus de Alambre de Púas, Chaco</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACTE4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/White Snakeroot.jpg" alt="Serpentaria Blanca">
+          <p class="plant-name">Ageratina altissima</p>
+          <p class="plant-common">Serpentaria Blanca</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGAL5">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/American Century Plant.jpg" alt="Planta del Siglo">
+          <p class="plant-name">Agave americana</p>
+          <p class="plant-common">Planta del Siglo Americano, Agave Americano, Maguey Americano</p>
+          <button class="learn-more-btn" style="margin-bottom: 15px;">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGAM">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Western Gulf Coastal Plains/Winter Bentgrass.jpg" alt="Winter Bentgrass">
+          <p class="plant-name">Agrostis hyemalis</p>
+          <p class="plant-common">Winter Bentgrass</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGHY">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Western Gulf Coastal Plains/Ridgestem False Foxglove.jpg" alt="Ridgestem False Foxglove">
+          <p class="plant-name">Agalinis oligophylla</p>
+          <p class="plant-common">Ridgestem False Foxglove</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGOL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Western Gulf Coastal Plains/Golden Colicroot.jpg" alt="Golden Colicroot">
+          <p class="plant-name">Aletris aurea</p>
+          <p class="plant-common">Golden Colicroot, Colicroot, Star Grass, Yellow Colic Root</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALAU">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="westernGulfCoastalPlain"></div>
     </div>
 
-    <!-- South Central Plains - Spanish -->
+    <!---------------------------------------------- South Central Plains - Spanish ------------------------------------------------------>
     <div id="southCentralPlains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -457,28 +1276,114 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Llanuras del Centro Sur son una región mixta de pastizal y bosque con precipitación variable. Esta área presenta un mosaico de praderas de pasto alto y pastos mixtos intercalados con bosques de roble y sabanas de roble blanco, soportando comunidades de plantas diversas adaptadas al clima de transición entre regiones costeras e interiores.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/East Central Texas Plains/Slender Threeseed Mercury.jpg" alt="Slender Threeseed Mercury">
+          <p class="plant-name">Acalypha gracilens</p>
+          <p class="plant-common">Slender Threeseed Mercury</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACGR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Angel's Trumpets.jpg" alt="Trompeta de Ángel">
+          <p class="plant-name">Acleisanthes longiflora</p>
+          <p class="plant-common">Trompeta de Ángel, Trompetas Angel</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACLO2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Ohio Buckeye.jpg" alt="Castaño de Indias de Ohio">
+          <p class="plant-name">Aesculus glabra</p>
+          <p class="plant-common">Castaño de Indias de Ohio, Castaño de Indias de Texas, Castaño de Indias Fétido</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AEGL">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Cross Timbers/Beach False Foxglove.jpg" alt="Dedalera de Playa">
+          <p class="plant-name">Agalinis fasciculata</p>
+          <p class="plant-common">Dedalera de Playa</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGFA2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Fraser Meadow Garlic.jpg" alt="Ajo de Pradera de Fraser">
+          <p class="plant-name">Allium canadense var. fraseri</p>
+          <p class="plant-common">Ajo de Pradera de Fraser, Cebolla Silvestre</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALCAF">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/South Central Plains/Smooth Alder.jpg" alt="Smooth Alder">
+          <p class="plant-name">Alnus serrulata</p>
+          <p class="plant-common">Smooth Alder, Hazel Alder, Brookside Alder, Tag Alder, Common Alder, Black Alder</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALSE2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/South Central Plains/American Hogpeanut.jpg" alt="American Hogpeanut">
+          <p class="plant-name">Amphicarpaea bracteata</p>
+          <p class="plant-common">American Hogpeanut</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMBR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/South Central Plains/Valley Redstem.jpg" alt="Tallo Rojo del Valle">
+          <p class="plant-name">Ammannia coccinea</p>
+          <p class="plant-common">Tallo Rojo del Valle, Copa Dentada Escarlata</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AMCO">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="southCentralPlains"></div>
     </div>
 
-    <!-- Arizona New Mexico Mountains - Spanish -->
+    <!---------------------------------------------- Arizona New Mexico Mountains - Spanish ------------------------------------------------------>
     <div id="arizonaNewMexicoMountains" class="page detail-page">
       <div class="detail-background"></div>
 
@@ -496,27 +1401,115 @@
       </div>
       <p class="ecoregion-description" style="margin-top: 45px;">Las Montañas de Arizona/Nuevo México son una región montañosa caracterizada por bosques de coníferas y terreno accidentado a gran altitud. Esta área presenta bosques de pino ponderosa, abeto y pícea adaptados a temperaturas más frías y precipitación más alta, con vegetación de sotobosque diversa y especies de plantas endémicas únicas del ecosistema montañoso del suroeste.</p>
       
-      <div class="search-section">
-        <input type="text" class="search-input" placeholder="Buscar Plantas">
-      </div>
-      
-      <div class="plant-grid">
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/e6fcb678-f54f-4e72-a0a0-9c51589e8111" alt="Planta">
-          <p class="plant-name">Abronia angustifolia</p>
-          <p class="plant-common">Verbena de Arena Púrpura, Verbena de Arena de Hoja Estrecha</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+       <!----- Horizontal Banner ------>
+      <h1 class="native-title" style="margin-bottom: 45px;">PLANTAS NATIVAS</h1>
+
+      <div class="scrollmenu plantlist">
+        <div class="native-card">
+          <img src="Native/Southern Texas Plains/Bigtooth Maple.jpg" alt="Arce de Dientes Grandes">
+          <p class="plant-name">Acer grandidentatum</p>
+          <p class="plant-common">Arce de Dientes Grandes, Arce de Dientes Grandes del Suroeste, Arce del Cañón, Arce Sabinal</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACGR3">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
         
-        <div class="plant-card">
-          <img src="https://www.figma.com/api/mcp/asset/4497fcaa-8f90-4d2c-bac8-7c95292cfc8b" alt="Planta">
-          <p class="plant-name">Abronia fragrans</p>
-          <p class="plant-common">Verbena de Arena Fragante, Verbena de Arena, Bola de Nieve de Pradera, Delicia del Corazón</p>
-          <button class="learn-more-btn">MÁS INFORMACIÓN</button>
+        <div class="native-card">
+          <img src="Native/Southwestern Tablelands/Dwarf Desertpeony.jpg" alt="Peonía del Desierto Enana">
+          <p class="plant-name">Acourtia nana</p>
+          <p class="plant-common">Peonía del Desierto Enana</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ACNA2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Arizona New Mexico Mountains/Slimfoot Century Plant.jpg" alt="Slimfoot Century Plant">
+          <p class="plant-name">Agave gracilipes</p>
+          <p class="plant-common">Slimfoot Century Plant</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGGR4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+        
+        <div class="native-card">
+          <img src="Native/Arizona New Mexico Mountains/Lechuguilla.jpg" alt="Lechuguilla">
+          <p class="plant-name">Agave lechuguilla</p>
+          <p class="plant-common">Lechuguilla, Tula Ixtle, Maguey Lechuguilla, Shindagger</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGLE">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Mountain Giant Hyssop.jpg" alt="Hisopo Gigante de Nuevo Mexico">
+          <p class="plant-name">Agastache pallidiflora</p>
+          <p class="plant-common">Hisopo Gigante de Nuevo Mexico</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGPA">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Parry's Agave.jpg" alt="Agave de Parry">
+          <p class="plant-name">Agave parryi</p>
+          <p class="plant-common">Agave de Parry, Planta del Siglo, Agave Parry</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGPA4">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/White Mistflower.jpg" alt="Flor de Niebla Blanca">
+          <p class="plant-name">Ageratina wrightii</p>
+          <p class="plant-common">Flor de Niebla Blanca, Raiz de Serpiente de Wright, Eucalipto Blanco, Ageratum Blanco</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=AGWR2">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
+        </div>
+
+        <div class="native-card">
+          <img src="Native/Chihuahuan-Desert/Drummond's Onion.jpg" alt="Cebolla de Drummond">
+          <p class="plant-name">Allium drummondii</p>
+          <p class="plant-common">Cebolla de Drummond, Ajo Silvestre, Drummond Cebolla Silvestre</p>
+          <button class="learn-more-btn">
+            <a href="https://www.wildflower.org/plants/result.php?id_plant=ALDR">
+              MÁS INFORMACIÓN
+            </a>
+          </button>
         </div>
       </div>
+
+      <div class="database-button">
+        <a href="https://www.wildflower.org/collections/collection.php?collection=er24"><img src="Native/database-button.png" alt="View more plants in this region"></a>
+      </div>
+
+<!--- Invasive Species Cards ---->
+
+      <h1 class="invasive-title">ESPECIES INVASORAS</h1>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Buscar Especies Invasoras" oninput="filterPlants(this)">
+      </div>
+      <div class="plant-grid" data-ecoregion="arizonaNewMexicoMountains"></div>
     </div>
 
+
+    <script src="invasive-species-data.js"></script>
     <script src="spanish-details-script.js"></script>
   </body>
 </html>
