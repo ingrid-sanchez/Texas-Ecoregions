@@ -134,11 +134,11 @@ function createPlantCard(species) {
   card.setAttribute('data-common', spanishName.toLowerCase());
 
   const color = getSpeciesColor(species.scientific);
+  const hasImage = species.image && species.image.length > 0;
   const initials = species.scientific.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase();
-
   card.innerHTML = `
     <div class="plant-image-placeholder" style="background: linear-gradient(135deg, ${color}, ${color}dd);">
-      <span class="plant-initials">${initials}</span>
+      ${hasImage ? `<img src='${species.image}' alt='${species.scientific}' class='plant-image'>` : `<span class='plant-initials'>${initials}</span>`}
       <span class="invasive-badge">INVASORA</span>
     </div>
     <p class="plant-name">${species.scientific}</p>
