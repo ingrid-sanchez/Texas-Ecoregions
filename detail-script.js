@@ -145,7 +145,8 @@ function createPlantCard(species) {
     </div>
     <p class="plant-name">${species.scientific}</p>
     <p class="plant-common">${species.common}</p>
-    <p class="plant-source">Source: USFS National Invasive Species Data</p>
+    <p class="credit">Image: ${species.text}</p>
+    <p class="plant-source">Data Source: USFS National Invasive Species Data</p>
   `;
 
   return card;

@@ -496,7 +496,7 @@ html, body {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 40px;
-  overflow: auto; /* CHANGE TO HIDDEN TO HIDE SCROLLBAR */
+  overflow: hidden; /* CHANGE TO HIDDEN TO HIDE SCROLLBAR, CHANGE TO AUTO TO SHOW SCROLLBAR */
 }
 
 @keyframes loop {
@@ -548,6 +548,7 @@ html, body {
   min-height: 50px;
   max-height: 50px;
   max-width: 250px;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -685,6 +686,13 @@ html, body {
   color: #333;
   line-height: 1.4;
   min-height: 50px;
+}
+
+.plant-card .credit {
+  padding: 0 15px 5px;
+  font-size: 10px;
+  color: #999;
+  font-family: 'Inter', sans-serif;
 }
 
 .plant-card .plant-source {
