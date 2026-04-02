@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Plant card flip animation (optional)
+  // Plant card flip animation
   const plantCards = document.querySelectorAll('.plant-card');
   plantCards.forEach(card => {
     card.addEventListener('click', function(e) {

@@ -9,10 +9,15 @@
   <body>
     <!-- Start Menu - English -->
     <div id="startMenu" class="page active">
+          <!--debugging mqp coordinates
+          <p style="position:absolute;">
+        <span id="x">0</span>, 
+        <span id="y">0</span>
+    </p>-->
       <div class="landing-container">
         <div class="map-section">
-          <img src="Ecoregions/recolored-texas-map.png" alt="Texas Ecoregions Map" usemap="#ecoregions-map">
-<map name="ecoregions-map">
+          <img src="Ecoregions/recolored-texas-map.png" alt="Texas Ecoregions Map" usemap="#ecoregions-map" style="width: auto; height: 100vh;">
+<map name="ecoregions-map" style="width: auto; height: 100vh;">
     <area shape="poly" alt="Chihuahuan Desert" coords="0,476,133,479,149,503,167,484,288,486,313,535,318,548,359,548,390,593,404,654,452,690,463,742,383,700,336,702,278,782,170,710,134,620" onclick="navigateToEcoregion('chihuahuanDeserts')" >
     <area  shape="poly" alt="Southern Texas Plains" coords="467,704,476,753,546,884,615,1024,676,1039,681,997,633,964,720,860,676,783,640,770,632,730,550,741,517,726,481,715,487,698" onclick="navigateToEcoregion('southernTexasPlains')" >
     <area  shape="poly" alt="Western Gulf Coastal Plains" coords="875,658,935,678,954,657,973,686,977,654,993,666,1057,651,1040,678,1050,697,768,909,788,1048,762,1070,680,1042,679,985,641,962" onclick="navigateToEcoregion('westernGulfCoastalPlain')">
