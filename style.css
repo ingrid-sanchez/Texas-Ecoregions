@@ -501,25 +501,18 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-  overflow-x: scroll;
+  /*overflow-x: scroll; */
   white-space: nowrap;
   background-color: #60721D;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 40px;
-  overflow: hidden; /* CHANGE TO HIDDEN TO HIDE SCROLLBAR, CHANGE TO AUTO TO SHOW SCROLLBAR */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Disable vertical scrolling */
-  white-space: nowrap; /* Prevent items from wrapping to the next line */
-  touch-action: pan-x; /* Allow touch scrolling on mobile devices */
+  overflow: hidden; /* CHANGE TO HIDDEN TO HIDE SCROLLBAR, CHANGE TO AUTO TO SHOW SCROLLBAR 
+  overflow-x: auto;  Enable horizontal scrolling - added this and all below 
+  overflow-y: hidden;  Disable vertical scrolling 
+  white-space: nowrap;  Prevent items from wrapping to the next line 
+  touch-action: pan-x;  Allow touch scrolling on mobile devices */
 }
-/*
-.scrollmenu {
-  overflow-x: auto; 
-  overflow-y: hidden; 
-  white-space: nowrap;
-  touch-action: pan-x; 
-} */
 
 @keyframes loop {
     0% {transform: translateX(100%);}
