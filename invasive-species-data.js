@@ -109,7 +109,7 @@ const ecoregionNames = {
   southernTexasPlains: "Southern Texas Plains",
   texasBlacklandPrairies: "Texas Blackland Prairies",
   eastCentralTexasPlains: "East Central Texas Plains",
-  westernGulfCoastalPlain: "Western Gulf Coastal Plain",
+  westernGulfCoastalPlain: "Western Gulf Coastal Plains",
   southCentralPlains: "South Central Plains",
   arizonaNewMexicoMountains: "Arizona/New Mexico Mountains"
 };

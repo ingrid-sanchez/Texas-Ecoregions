@@ -8,34 +8,105 @@
   </head>
   <body>
     <!-- Start Menu - English -->
+
     <div id="startMenu" class="page active">
           <!--debugging mqp coordinates
           <p style="position:absolute;">
         <span id="x">0</span>, 
         <span id="y">0</span>
     </p>-->
+
+    <!--ecoregion old coordinates debugging
+        <area shape="poly" alt="Chihuahuan Desert" coords="0,476,133,479,149,503,167,484,288,486,313,535,318,548,359,548,390,593,404,654,452,690,463,742,383,700,336,702,278,782,170,710,134,620" onclick="navigateToEcoregion('chihuahuanDeserts')" fill="" fill-opacity="0.5" style="cursor:pointer">
+    <area  shape="poly" alt="Southern Texas Plains" coords="467,704,476,753,546,884,615,1024,676,1039,681,997,633,964,720,860,676,783,640,770,632,730,550,741,517,726,481,715,487,698" onclick="navigateToEcoregion('southernTexasPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="Western Gulf Coastal Plains" coords="875,658,935,678,954,657,973,686,977,654,993,666,1057,651,1040,678,1050,697,768,909,788,1048,762,1070,680,1042,679,985,641,962" onclick="navigateToEcoregion('westernGulfCoastalPlain')" style="cursor:pointer">
+    <area  shape="poly" alt="East Central Texas Plains"  coords="720,851,682,779,641,766,646,758,681,752,720,722,749,697,741,679,824,557,852,477,824,444,832,443,847,446,852,416,842,398,855,377,871,386,896,363,902,346,923,341,909,321,892,322,884,314,838,331,802,313,809,306,842,325,865,313,890,306,914,314,925,323,951,326,968,354,933,379,895,415,879,463,893,552,895,588,867,622,807,669,735,772,753,774,796,740,823,689,863,653,872,655" onclick="navigateToEcoregion('eastCentralTexasPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="High Plains"  coords="311,62,408,64,415,82,439,65,445,71,430,98,470,68,511,64,472,90,482,101,389,127,388,144,360,131,344,111,343,127,322,127,307,143,308,98" onclick="navigateToEcoregion('highPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="High Plains"  coords="306,193,292,483,322,540,356,539,380,556,434,527,416,506,424,478,422,464,434,461,398,429,393,400,415,409,421,373,411,344,443,341,432,310,456,328,449,283,441,250,395,200,437,206,441,184,462,187,462,162,490,148,475,148,482,132,442,159,387,185,352,175,330,175" onclick="navigateToEcoregion('highPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="Arizona/New Mexico Mountains"  coords="141,480,150,499,162,482" onclick="navigateToEcoregion('arizonaNewMexicoMountains')" style="cursor:pointer">
+    <area  shape="poly" alt="Southwestern Tablelands"  coords="305,147,312,157,306,168,306,182,336,168,385,181,483,129,483,142,495,142,468,162,464,191,439,207,411,207,454,259,461,331,422,352,419,410,400,410,404,430,436,459,430,469,457,486,491,497,530,519,524,499,499,488,482,479,485,462,499,452,484,424,493,397,541,394,531,381,542,375,540,351,571,337,579,324,601,328,605,321,593,308,551,311,565,288,528,267,535,243,508,217,476,224,456,206,486,203,513,202,538,215,541,187,497,190,493,180,514,169,510,146,539,139,541,66,512,66,481,86,483,102,419,129,396,126,388,145,352,128,320,132" onclick="navigateToEcoregion('southwesternTablelands')" style="cursor:pointer">
+    <area  shape="poly" alt="Southwestern Tablelands"  coords="408,64,414,78,442,64,447,70,436,90,479,62" onclick="navigateToEcoregion('southwesternTablelands')" style="cursor:pointer">
+    <area  shape="poly" alt="Cross Timbers"  coords="784,301,800,315,759,489,776,519,727,605,684,586,665,561,631,568,614,550,633,518,602,500,597,459,622,456,614,436,634,387,673,377,653,360,711,345,728,304,763,311" onclick="navigateToEcoregion('crossTimbers')" style="cursor:pointer">
+    <area  shape="poly" alt="South Central Plains"  coords="840,310,890,295,926,297,988,324,1012,328,1032,476,1068,564,1057,646,993,658,970,643,972,674,956,651,936,672,914,661,893,660,878,648,901,635,879,618,902,578,883,459,915,399,971,360,960,332,949,323,929,320,897,303,863,311,841,319" onclick="navigateToEcoregion('southCentralPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="Texas Blackland Prairies"  coords="803,325,840,336,882,323,914,337,892,343,866,377,850,370,834,399,843,437,815,435,845,482,735,685,738,698,677,750,646,753,635,728,670,719,713,682,732,602,781,520,765,479" onclick="navigateToEcoregion('texasBlacklandPrairies')" style="cursor:pointer">
+    <area  shape="poly" alt="Texas Blackland Prairies"  coords="875,620,893,632,823,685,792,740,753,768,741,770,770,732,804,682,819,665" onclick="navigateToEcoregion('texasBlacklandPrairies')" style="cursor:pointer">
+    <area  shape="poly" alt="Edwards Plateau" coords="428,484,422,506,437,526,380,562,399,618,421,663,454,687,459,701,488,691,497,697,489,709,552,733,627,728,670,714,710,681,726,614,681,588,663,565,628,568,618,559,581,573,555,570,559,558,498,558,491,542,485,522,508,526,514,515,471,492" onclick="navigateToEcoregion('edwardsPlateau')" style="cursor:pointer">
+    <area  shape="poly" alt="Edwards Plateau" coords="490,462,490,479,522,494,530,469,539,477,556,472,555,463,530,457,525,451" onclick="navigateToEcoregion('edwardsPlateau')" style="cursor:pointer">
+    <area  shape="poly" alt="Central Great Plains" coords="462,210,478,224,509,218,540,245,533,267,574,287,562,309,601,309,612,322,605,333,546,354,548,378,539,384,549,397,497,409,489,429,505,456,536,455,561,462,559,476,541,483,533,477,530,494,536,516,510,533,496,533,501,557,566,553,565,567,581,570,612,558,610,540,624,527,613,510,600,506,589,453,612,450,610,429,634,377,660,373,648,354,707,335,726,299,699,309,688,285,606,281,591,259,567,265,539,222,510,203" onclick="navigateToEcoregion('centralGreatPlains')" style="cursor:pointer">
+    <area  shape="poly" alt="Central Great Plains" coords="540,142,512,146,519,168,498,181,503,188,540,184" onclick="navigateToEcoregion('centralGreatPlains')" style="cursor:pointer">
+    -->
+
       <div class="landing-container">
         <div class="map-section">
-          <img src="Ecoregions/recolored-texas-map.png" alt="Texas Ecoregions Map" usemap="#ecoregions-map" style="width: auto; height: 100vh;">
-<map name="ecoregions-map" style="width: auto; height: 100vh;">
-    <area shape="poly" alt="Chihuahuan Desert" coords="0,476,133,479,149,503,167,484,288,486,313,535,318,548,359,548,390,593,404,654,452,690,463,742,383,700,336,702,278,782,170,710,134,620" onclick="navigateToEcoregion('chihuahuanDeserts')" >
-    <area  shape="poly" alt="Southern Texas Plains" coords="467,704,476,753,546,884,615,1024,676,1039,681,997,633,964,720,860,676,783,640,770,632,730,550,741,517,726,481,715,487,698" onclick="navigateToEcoregion('southernTexasPlains')" >
-    <area  shape="poly" alt="Western Gulf Coastal Plains" coords="875,658,935,678,954,657,973,686,977,654,993,666,1057,651,1040,678,1050,697,768,909,788,1048,762,1070,680,1042,679,985,641,962" onclick="navigateToEcoregion('westernGulfCoastalPlain')">
-    <area  shape="poly" alt="East Central Texas Plains"  coords="720,851,682,779,641,766,646,758,681,752,720,722,749,697,741,679,824,557,852,477,824,444,832,443,847,446,852,416,842,398,855,377,871,386,896,363,902,346,923,341,909,321,892,322,884,314,838,331,802,313,809,306,842,325,865,313,890,306,914,314,925,323,951,326,968,354,933,379,895,415,879,463,893,552,895,588,867,622,807,669,735,772,753,774,796,740,823,689,863,653,872,655" onclick="navigateToEcoregion('eastCentralTexasPlains')">
-    <area  shape="poly" alt="High Plains"  coords="311,62,408,64,415,82,439,65,445,71,430,98,470,68,511,64,472,90,482,101,389,127,388,144,360,131,344,111,343,127,322,127,307,143,308,98" onclick="navigateToEcoregion('highPlains')" >
-    <area  shape="poly" alt="High Plains"  coords="306,193,292,483,322,540,356,539,380,556,434,527,416,506,424,478,422,464,434,461,398,429,393,400,415,409,421,373,411,344,443,341,432,310,456,328,449,283,441,250,395,200,437,206,441,184,462,187,462,162,490,148,475,148,482,132,442,159,387,185,352,175,330,175" onclick="navigateToEcoregion('highPlains')" >
-    <area  shape="poly" alt="Arizona/New Mexico Mountains"  coords="141,480,150,499,162,482" onclick="navigateToEcoregion('arizonaNewMexicoMountains')" >
-    <area  shape="poly" alt="Southwestern Tablelands"  coords="305,147,312,157,306,168,306,182,336,168,385,181,483,129,483,142,495,142,468,162,464,191,439,207,411,207,454,259,461,331,422,352,419,410,400,410,404,430,436,459,430,469,457,486,491,497,530,519,524,499,499,488,482,479,485,462,499,452,484,424,493,397,541,394,531,381,542,375,540,351,571,337,579,324,601,328,605,321,593,308,551,311,565,288,528,267,535,243,508,217,476,224,456,206,486,203,513,202,538,215,541,187,497,190,493,180,514,169,510,146,539,139,541,66,512,66,481,86,483,102,419,129,396,126,388,145,352,128,320,132" onclick="navigateToEcoregion('southwesternTablelands')" >
-    <area  shape="poly" alt="Southwestern Tablelands"  coords="408,64,414,78,442,64,447,70,436,90,479,62" onclick="navigateToEcoregion('southwesternTablelands')" >
-    <area  shape="poly" alt="Cross Timbers"  coords="784,301,800,315,759,489,776,519,727,605,684,586,665,561,631,568,614,550,633,518,602,500,597,459,622,456,614,436,634,387,673,377,653,360,711,345,728,304,763,311" onclick="navigateToEcoregion('crossTimbers')" >
-    <area  shape="poly" alt="South Central Plains"  coords="840,310,890,295,926,297,988,324,1012,328,1032,476,1068,564,1057,646,993,658,970,643,972,674,956,651,936,672,914,661,893,660,878,648,901,635,879,618,902,578,883,459,915,399,971,360,960,332,949,323,929,320,897,303,863,311,841,319" onclick="navigateToEcoregion('southCentralPlains')" >
-    <area  shape="poly" alt="Texas Blackland Prairies"  coords="803,325,840,336,882,323,914,337,892,343,866,377,850,370,834,399,843,437,815,435,845,482,735,685,738,698,677,750,646,753,635,728,670,719,713,682,732,602,781,520,765,479" onclick="navigateToEcoregion('texasBlacklandPrairies')" >
-    <area  shape="poly" alt="Texas Blackland Prairies"  coords="875,620,893,632,823,685,792,740,753,768,741,770,770,732,804,682,819,665" onclick="navigateToEcoregion('texasBlacklandPrairies')" >
-    <area  shape="poly" alt="Edwards Plateau" coords="428,484,422,506,437,526,380,562,399,618,421,663,454,687,459,701,488,691,497,697,489,709,552,733,627,728,670,714,710,681,726,614,681,588,663,565,628,568,618,559,581,573,555,570,559,558,498,558,491,542,485,522,508,526,514,515,471,492" onclick="navigateToEcoregion('edwardsPlateau')">
-    <area  shape="poly" alt="Edwards Plateau" coords="490,462,490,479,522,494,530,469,539,477,556,472,555,463,530,457,525,451" onclick="navigateToEcoregion('edwardsPlateau')">
-    <area  shape="poly" alt="Central Great Plains" coords="462,210,478,224,509,218,540,245,533,267,574,287,562,309,601,309,612,322,605,333,546,354,548,378,539,384,549,397,497,409,489,429,505,456,536,455,561,462,559,476,541,483,533,477,530,494,536,516,510,533,496,533,501,557,566,553,565,567,581,570,612,558,610,540,624,527,613,510,600,506,589,453,612,450,610,429,634,377,660,373,648,354,707,335,726,299,699,309,688,285,606,281,591,259,567,265,539,222,510,203" onclick="navigateToEcoregion('centralGreatPlains')" >
-    <area  shape="poly" alt="Central Great Plains" coords="540,142,512,146,519,168,498,181,503,188,540,184" onclick="navigateToEcoregion('centralGreatPlains')" >
-</map>
+          <svg viewBox="0 0 1300 1300" preserveAspectRatio="xMidYMid meet" class="scaled-svg">
+          <image href="Ecoregions/recolored-texas-map.png" alt="Texas Ecoregions Map" style="width: 1300px; height: auto;"></image>
+          <!-- ecoregion coordinates-->  
+           <!-- arizona/new mexico mountains -->
+          <polygon points="170,573,196,573,179,594"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('arizonaNewMexicoMountains')"/>
+            <!-- chihuahuan desert -->
+            <polygon points="7,567,166,574,179,598,199,580,348,584,373,639,365,652,424,655,457,672,474,739,485,746,479,786,506,803,520,799,546,848,556,886,505,843,431,835,376,849,335,928,228,875,164,733,72,655" 
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('chihuahuanDeserts')"/>
+            <!-- high plains-->
+            <polygon points="369,72,491,77,500,101,532,79,537,86,520,109,525,122,560,80,610,78,568,101,580,119,500,149,466,154,466,177,429,159,416,138,413,156,384,151,367,171,369,198,377,192,368,184,366,233,400,208,465,223,509,195,545,186,575,161,570,179,592,174,576,187,568,187,546,201,562,228,522,221,528,251,481,238,491,256,521,293,539,310,536,335,558,392,529,375,526,412,505,413,509,454,492,489,478,489,480,521,524,554,507,565,508,586,499,609,530,624,461,667,428,652,384,647,353,581"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('highPlains')"/>
+            <!-- southwestern tablelands -->
+            <polygon points="651,78,647,165,614,177,614,201,587,218,652,229,646,256,615,240,550,243,573,266,604,262,647,287,629,314,684,345,653,371,674,374,713,367,727,388,721,397,691,395,682,405,647,426,653,446,633,461,651,474,589,484,583,507,600,539,586,558,587,574,625,591,637,615,624,622,574,594,514,568,532,555,490,516,485,495,505,482,513,449,511,423,537,407,534,388,566,395,543,327,544,306,490,246,530,256,530,231,568,229,556,204,601,172,578,150,546,178,505,194,468,216,399,201,373,218,373,198,380,190,371,178,388,157,415,159,417,147,429,163,467,181,469,161,501,156,581,124,579,104,615,78,496,77,501,98,530,79,542,79,526,112,559,78"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('southwesternTablelands')"/>
+            <!--central great plains-->
+            <polygon points="715,685,694,683,672,677,592,660,589,631,641,620,631,585,638,567,668,569,675,548,641,542,629,527,607,545,604,527,591,506,594,490,656,475,649,456,663,447,655,429,733,395,731,381,714,360,672,361,692,344,637,316,653,287,614,259,601,255,576,260,561,247,613,246,645,262,655,220,600,211,623,202,623,178,649,173,652,281,679,313,710,311,730,334,791,350,824,342,841,373,873,359,850,397,848,406,797,415,779,423,791,445,760,458,744,482,731,526,732,540,722,551,709,538,706,565,724,609,748,620,744,638,727,648,730,672"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('centralGreatPlains')"/>
+            <!-- cross timbers -->
+            <polygon points="874,363,899,375,917,368,925,384,943,360,959,374,957,383,941,396,933,452,925,481,912,539,913,584,925,620,899,668,897,695,868,730,817,700,808,676,763,678,735,669,735,645,757,631,744,604,729,600,715,553,747,551,733,526,744,503,757,467,797,452,788,426,855,410"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('crossTimbers')"/>
+            <!-- edwards plateau-->
+            <polygon points="872,739,869,771,850,823,802,858,754,873,713,871,657,891,577,856,594,840,587,835,558,839,559,849,547,843,523,795,503,794,482,781,492,751,492,739,477,735,465,676,535,625,519,609,505,606,515,586,511,574,559,588,589,609,616,621,584,629,586,660,599,675,721,688,740,678,772,683,799,681,819,706"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('edwardsPlateau')"/>
+            <!-- southern texas plains-->
+            <polygon points="555,857,560,841,584,839,571,853,655,897,721,875,758,879,763,903,762,912,779,935,807,941,859,1017,856,1036,840,1041,836,1052,815,1076,815,1091,783,1119,785,1138,763,1153,770,1168,792,1192,819,1196,802,1220,805,1243,779,1240,765,1223,744,1221,706,1141,701,1083,657,1061,646,1027,617,1012"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('southernTexasPlains')"/>
+            <!-- texas blackland prairies -->
+            <polygon points="965,381,984,395,1016,402,1049,388,1063,382,1063,392,1088,392,1107,407,1076,411,1074,430,1039,457,1029,441,1011,467,1000,480,1015,499,1010,530,975,524,1003,559,1015,569,946,707,946,714,902,773,888,776,893,789,879,815,890,835,876,835,858,848,860,857,849,858,809,900,769,898,761,879,792,862,820,858,859,822,860,807,879,760,879,723,905,696,906,660,934,624,928,597,917,574,914,555,926,547,915,528,927,511,928,481,941,450,943,398"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('texasBlacklandPrairies')"/>
+            <polygon points="875,924,913,886,963,809,976,795,1027,769,1053,747,1053,763,1072,765,1068,773,1051,770,1040,779,1019,785,1017,798,1002,817,988,820,981,818,972,833,975,842,969,848,959,876,941,883,922,898,915,914,886,933"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('texasBlacklandPrairies')"/>
+            <!-- east central texas plains-->
+            <polygon points="969,363,964,375,984,392,1011,397,1051,383,1067,379,1067,388,1089,390,1108,407,1103,414,1083,415,1070,438,1037,462,1026,449,1007,477,1020,496,1011,531,983,530,1006,554,1021,567,952,705,951,715,904,778,891,779,896,787,883,811,893,834,882,839,865,851,864,863,850,865,813,902,771,904,767,912,782,932,808,936,821,952,860,1007,909,984,902,967,936,952,937,921,957,911,973,911,983,874,992,847,1000,847,1013,822,1031,823,1030,808,1052,792,1043,780,1027,784,1021,797,1005,816,983,820,979,838,963,879,932,897,918,919,887,936,875,918,912,878,963,805,1022,764,1052,740,1052,726,1080,700,1060,569,1050,547,1075,520,1100,457,1132,450,1161,430,1136,389,1107,384,1097,371,1071,363,1054,371,1037,379,1018,381,1005,394"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('eastCentralTexasPlains')"/>
+            <!--western gulf coastal plains-->
+            <polygon points="911,1283,940,1261,913,1169,926,1088,969,1030,1024,987,1129,917,1170,875,1235,839,1257,832,1246,818,1269,792,1251,779,1226,786,1184,802,1167,790,1173,817,1146,787,1135,795,1129,812,1115,812,1105,799,1086,793,1067,794,1056,794,1036,807,1032,825,1014,824,1002,849,990,854,989,870,981,878,974,913,954,910,940,923,939,952,909,968,913,984,861,1007,865,1028,842,1042,819,1075,817,1092,788,1118,790,1132,770,1155,787,1180,823,1191,810,1215,808,1246,842,1261,885,1263"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('westernGulfCoastalPlains')"/>
+            <!-- south central plains-->
+            <polygon points="1270,781,1262,753,1282,683,1250,622,1247,593,1225,574,1216,395,1183,393,1134,377,1105,354,1091,361,1066,356,1041,366,1013,373,999,378,1005,388,1018,376,1038,376,1069,361,1097,367,1110,380,1141,388,1166,421,1158,435,1132,454,1106,454,1080,514,1057,545,1087,702,1057,724,1058,750,1077,761,1074,771,1053,774,1057,789,1089,789,1122,807,1144,779,1163,801,1167,778,1185,795,1227,783,1258,771"
+            fill="transparent" fill-opacity="0.5"
+            style="cursor:pointer"
+            onclick="navigateToEcoregion('southCentralPlains')"/>
+
+        </svg>
         </div>
         
         <div class="legend-sidebar">
@@ -44,7 +115,7 @@
           <div class="legend">
             <div class="legend-item" onclick="navigateToEcoregion('chihuahuanDeserts')">
               <div class="legend-color" style="background-color: #6a380a;"></div>
-              <span class="legend-label">Chihuahuan Deserts</span>
+              <span class="legend-label">Chihuahuan Desert</span>
             </div>
             <div class="legend-item" onclick="navigateToEcoregion('arizonaNewMexicoMountains')">
               <div class="legend-color" style="background-color: #ff8817;"></div>

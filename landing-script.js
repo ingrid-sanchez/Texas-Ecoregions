@@ -9,11 +9,10 @@ function navigateToEcoregion(pageId) {
 }
 
 
-// debugging
+// debugging coords
 const xDisplay = document.getElementById('x');
 const yDisplay = document.getElementById('y');
 
-// Add an event listener to the document
 document.addEventListener('mousemove', (event) => {
     // clientX/Y get coordinates relative to the browser window
     xDisplay.textContent = event.clientX;
