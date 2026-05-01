@@ -65,7 +65,7 @@ html, body {
 
 .legend-sidebar {
   width: 700px;
-  padding: 50px 40px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -414,20 +414,28 @@ html, body {
   transform: translateX(-5px);
 }
 
+/*
 .ecoregion-title {
-  font-size: 64px;
-  font-weight: 900;
-  color: #60721D;
-  margin-bottom: 20px;
-  text-align: center;
-  font-family: 'Noto Sans Hebrew', 'Noto Sans', sans-serif;
+  background-color:#60721D;
+  width: 100vw;
+  max-width: none;
+  margin: 0 0 0 0;
 }
 
+.ecoregion-title h1{
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+  text-align: right;
+  font-family: 'Noto Sans Hebrew', 'Noto Sans', sans-serif;
+}*/
+
 .ecoregion-description {
-  font-size: 24px;
+  font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #60721D;
-  text-align: center;
+  text-align: left;
   max-width: 1500px;
   margin: 0 auto 40px;
   line-height: 1.6;
@@ -494,8 +502,8 @@ html, body {
   color: #60721D;
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 40px;
-  line-height: 1.6;
+  margin: 45px auto 0px;
+  line-height: 0.5;
 }
 
 .plantlist{
@@ -510,11 +518,12 @@ html, body {
   width: 100%;
   height: auto;
   /*overflow-x: scroll; */
+  background-color: #627d00;
   white-space: nowrap;
-  background-color: #60721D;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 40px;
+  margin-top: 0px;
   overflow: hidden; /* CHANGE TO HIDDEN TO HIDE SCROLLBAR, CHANGE TO AUTO TO SHOW SCROLLBAR 
   overflow-x: auto;  Enable horizontal scrolling - added this and all below 
   overflow-y: hidden;  Disable vertical scrolling 
@@ -588,10 +597,11 @@ html, body {
 
 .database-button {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
   width: 100%;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .database-button a img {
@@ -614,8 +624,8 @@ html, body {
   color: #7d1515;
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 40px;
-  line-height: 1.6;
+  margin: 45px auto 45px;
+  line-height: 0.5;
 }
 
 .plant-image-placeholder {
@@ -841,7 +851,7 @@ html, body {
   }
 
   .detail-page {
-    padding: 40px 20px;
+    padding: 0px 0px;
   }
 
   .plant-grid {
