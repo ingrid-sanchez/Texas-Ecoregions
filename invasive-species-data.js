@@ -118,7 +118,7 @@ const ecoregionNames = {
 const ecoregionNamesSpa = {
   chihuahuanDeserts: "Desiertos de Chihuahua",
   southwesternTablelands: "Mesetas del Suroeste",
-  highPlains: "Grandes Llanuras",
+  highPlains: "Llanuras Altas",
   centralGreatPlains: "Grandes Llanuras Centrales",
   crossTimbers: "Bosques Cruzados",
   edwardsPlateau: "Meseta de Edwards",
