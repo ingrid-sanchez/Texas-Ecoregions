@@ -3,7 +3,7 @@
 // Species mapped to Texas ecoregions based on ecological distribution
 
 const invasiveSpeciesData = [
-  { scientific: "Ailanthus altissima", common: "Tree of Heaven", ecoregions: ["crossTimbers", "texasBlacklandPrairies", "eastCentralTexasPlains", "edwardsPlateau"], image: "Invasive/ailanthus-altissima.jpg", text: "Agnieszka Kwiecień, Nova, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"},
+  { scientific: "Ailanthus altissima", common: "Tree of Heaven", ecoregions: ["crossTimbers", "texasBlacklandPrairies", "eastCentralTexasPlains", "edwardsPlateau"], image: "Invasive/Ailanthus_altissima.jpg", text: "Jebulon, CC0, via Wikimedia Commons"},
   { scientific: "Albizia julibrissin", common: "Silktree", ecoregions: ["southCentralPlains", "westernGulfCoastalPlain", "eastCentralTexasPlains", "crossTimbers", "texasBlacklandPrairies"], image: "Invasive/albizia-julibrissin.jpg", text: "Luis Fernández García, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"},
   { scientific: "Arundo donax", common: "Giant Reed", ecoregions: ["chihuahuanDeserts", "edwardsPlateau", "southernTexasPlains", "westernGulfCoastalPlain", "texasBlacklandPrairies"], image: "Invasive/arundo-donax.jpg", text: "Juan Carlos Fonseca Mata, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"},
   { scientific: "Bothriochloa ischaemum var. songarica", common: "Yellow Bluestem", ecoregions: ["southwesternTablelands", "highPlains", "centralGreatPlains", "crossTimbers", "edwardsPlateau", "southernTexasPlains", "texasBlacklandPrairies"], image: "Invasive/bothriochloa-ischaemum.jpg", text: "Stefan.lefnaer, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"},
